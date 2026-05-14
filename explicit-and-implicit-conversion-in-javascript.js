@@ -18,6 +18,9 @@ Use console.log() to clearly show the before-and-after type conversions.
 
 */
 
+
+//Task 1: Debug the code
+
 // Here we need to Convert "5" to a number before subtraction
 let result = Number ("5") - 2; // Therefore the Number("5") ensures numeric math value. 
 
@@ -36,3 +39,12 @@ else {
 let age = "25";
 let totalAge = Number(age) + 5;
 console.log("Total Age: " + totalAge);
+
+
+//Task 2: Examples of Type Conversion
+let output = "10" - 3;  
+console.log(output); 
+
+let Gamelevel = "5";
+let totalLevel = Number(Gamelevel) + 5;
+console.log("YourGameLevelIs:"+ totalLevel);
